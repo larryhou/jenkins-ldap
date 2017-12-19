@@ -17,4 +17,4 @@ database ldif
 
 + root DN: dc=next,dc=com
 + Manager DN: cn=Manager,dc=next,dc=com
-+ Manager Password: 870404
++ Manager Password: moobyee
