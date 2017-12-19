@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<LDAPUserConfig>
+	<group name="developer">
+		<user name='larry' pssw='{SSHA}IN/uRXMoeH1rOzE20zQwcDR91H5WP/eZ'/>
+		<user name='danis' pssw='{SSHA}V1a7VtqttNGocgfpjy0eFCLynhFnkFnQ'/>
+		<user name='jacky' pssw='{SSHA}Jv7OFvVxI7U5j4webzzlVMpNpiSZTazH'/>
+		<user name='felix' pssw='{SSHA}lkHE4pFjzgKp0VJeho2TC1Mzy0CPHFCn'/>
+		<user name='jerry' pssw='{SSHA}NQ2lbu5hynxOsBoO2Bwk8hXG4MXTFxaz'/>
+	</group>
+</LDAPUserConfig>

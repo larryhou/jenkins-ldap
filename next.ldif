@@ -1,0 +1,70 @@
+dn: dc=next,dc=com
+objectClass: organization
+objectClass: dcobject
+o:Jenkins Development
+dc: next
+
+dn: ou=developer,dc=next,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: developer
+
+dn: cn=developer,ou=developer,dc=next,dc=com
+objectclass: groupOfUniqueNames
+cn: developer
+uniqueMember: uid=larry,ou=developer,dc=next,dc=com
+uniqueMember: uid=danis,ou=developer,dc=next,dc=com
+uniqueMember: uid=jacky,ou=developer,dc=next,dc=com
+uniqueMember: uid=felix,ou=developer,dc=next,dc=com
+uniqueMember: uid=jerry,ou=developer,dc=next,dc=com
+
+dn: uid=larry,ou=developer,dc=next,dc=com
+uid: larry
+objectclass: person
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+mail: larry@gmail.com
+userPassword: {SSHA}IN/uRXMoeH1rOzE20zQwcDR91H5WP/eZ
+sn: larry
+cn: larry
+
+dn: uid=danis,ou=developer,dc=next,dc=com
+uid: danis
+objectclass: person
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+mail: danis@gmail.com
+userPassword: {SSHA}V1a7VtqttNGocgfpjy0eFCLynhFnkFnQ
+sn: danis
+cn: danis
+
+dn: uid=jacky,ou=developer,dc=next,dc=com
+uid: jacky
+objectclass: person
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+mail: jacky@gmail.com
+userPassword: {SSHA}Jv7OFvVxI7U5j4webzzlVMpNpiSZTazH
+sn: jacky
+cn: jacky
+
+dn: uid=felix,ou=developer,dc=next,dc=com
+uid: felix
+objectclass: person
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+mail: felix@gmail.com
+userPassword: {SSHA}lkHE4pFjzgKp0VJeho2TC1Mzy0CPHFCn
+sn: felix
+cn: felix
+
+dn: uid=jerry,ou=developer,dc=next,dc=com
+uid: jerry
+objectclass: person
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+mail: jerry@gmail.com
+userPassword: {SSHA}NQ2lbu5hynxOsBoO2Bwk8hXG4MXTFxaz
+sn: jerry
+cn: jerry
+
