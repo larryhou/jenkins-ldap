@@ -1,4 +1,4 @@
-#### LDIF服务器配置
+### LDIF服务器配置
 + 不能使用明文密码，否则会导致ldap服务验证失败
 
 ```
@@ -11,7 +11,7 @@ rootpw {SSHA}aKymjoeU6I6qy6+UGJROi51mM9YMaFvs
 database ldif
 ```
 
-#### Jenkins账号系统接入配置
+### Jenkins账号系统接入配置
 
 + root DN: dc=next,dc=com
 + Manager DN: cn=Manager,dc=next,dc=com
